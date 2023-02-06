@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MyDailyCat</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_timeline">Meus Daily</string>
+    <string name="title_calendar">Calendário</string>
+    <string name="title_tree">Árvore</string>
+    <string name="title_statistics">Estatísticas</string>
 </resources>
