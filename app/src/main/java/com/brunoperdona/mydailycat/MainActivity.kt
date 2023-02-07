@@ -16,12 +16,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // Fix Bottom Navigation Overlay
         binding.bottomNavigationView.background = null
-        binding.bottomNavigationView.menu.get(2).isEnabled = false
+        binding.bottomNavigationView.menu[2].isEnabled = false
 
         val navView: BottomNavigationView = binding.bottomNavigationView
 
