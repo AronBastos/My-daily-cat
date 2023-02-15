@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_timeline"
-        android:name="com.brunoperdona.mydailycat.ui.home.HomeFragment"
+        android:name="com.brunoperdona.mydailycat.ui.timeline.TimelineFragment"
         android:label="@string/title_timeline"
         tools:layout="@layout/fragment_timeline" />
 
@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/navigation_statistics"
-        android:name="com.brunoperdona.mydailycat.ui.home.HomeFragment"
+        android:name="com.brunoperdona.mydailycat.ui.timeline.TimelineFragment"
         android:label="@string/title_statistics"
         tools:layout="@layout/fragment_timeline"
     />
